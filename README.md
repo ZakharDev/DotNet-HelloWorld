@@ -1,30 +1,40 @@
 ![logo](https://eliasdh.com/assets/media/images/logo-github.png)
-# 💙🤍DotNet-HelloWorld🤍💙
-
-This is a simple .NET Core web application that displays "Hello, World!" of "Hello AppEngine!"
-
----
+# 💙🤍README🤍💙
 
 ## 📘Table of Contents
 
-1. [Introduction](#introduction)
-2. [Steps](#steps)
-    - [Step 0: Preparation](#step-0-preparation)
-    - [Step 1: Clone The GitHub Repository](#step-1-clone-the-github-repository)
-    - [Step 2: Restore & Build The Project](#step-2-restore--build-the-project)
-    - [Step 3: Run The Project (Test)](#step-3-run-the-project-test)
-    - [Step 4: Publish The Project On GCloud](#step-4-publish-the-project-on-gcloud)
-3. [Links](#links)
+1. [📘Table of Contents](#📘table-of-contents)
+2. [🖖Introduction](#🖖introduction)
+3. [📦Extra](#📦extra)
+    1. [🖖Info](#🖖info)
+    2. [✨Steps](#✨steps)
+        1. [👉Step 0: Preparation](#👉step-0-preparation)
+        2. [👉Step 1: Clone The GitHub Repository](#👉step-1-clone-the-github-repository)
+        3. [👉Step 2: Restore & Build The Project](#👉step-2-restore--build-the-project)
+        4. [👉Step 3: Run The Project (Test)](#👉step-3-run-the-project-test)
+        5. [👉Step 4: Publish The Project On GCloud](#👉step-4-publish-the-project-on-gcloud)
+4. [🔗Links](#🔗links)
+
 
 ---
 
 ## 🖖Introduction
 
+I kindly request your thorough examination and absorption of the comprehensive documentation incorporated within the confines of this repository. Your diligent review of the diverse materials provided herein will undoubtedly enhance your understanding of the intricacies and nuances associated with the contents therein.
+
+Please also see following documents:
+- [LICENSE](LICENSE.md)
+- [SECURITY](SECURITY.md)
+
+## 📦Extra
+
+### 🖖Info
+
 This is a simple .NET Core web application that displays "Hello, World!" of "Hello AppEngine!". This application is intended to be used as a starting point for creating a .NET Core web application that can be deployed to Google Cloud.
 
-## ✨Steps
+### ✨Steps
 
-### 👉 Step 0: Preparation
+#### 👉Step 0: Preparation
 
 - Update and upgrade system
     ```bash	
@@ -38,7 +48,7 @@ This is a simple .NET Core web application that displays "Hello, World!" of "Hel
     ```
 - Insall the Google Cloud CLI [Instructions GCloud CLI](https://github.com/EliasDeHondt/IntegrationProject1-Deployment/blob/main/Documentation/Instructions-GCloud-CLI.md)
 
-### 👉 Step 1: Clone The GitHub Repository
+#### 👉Step 1: Clone The GitHub Repository
 
 - Clone the repository
     ```bash
@@ -49,7 +59,7 @@ This is a simple .NET Core web application that displays "Hello, World!" of "Hel
     cd DotNet-HelloWorld
     ```
 
-### 👉 Step 2: Restore & Build The Project
+#### 👉Step 2: Restore & Build The Project
 
 - Restore the project
     ```bash
@@ -61,7 +71,7 @@ This is a simple .NET Core web application that displays "Hello, World!" of "Hel
     dotnet build
     ```
 
-### 👉 Step 3: Run The Project (Test)
+#### 👉Step 3: Run The Project (Test)
 
 - Run the project
     ```bash
@@ -72,7 +82,7 @@ This is a simple .NET Core web application that displays "Hello, World!" of "Hel
 - Open a web browser and navigate to `http://localhost:5000` to see the application running.
 - Press `Ctrl+C` to stop the application.
 
-### 👉 Step 4: Publish The Project On GCloud
+#### 👉Step 4: Publish The Project On GCloud
 
 - Publish the project (`This can take a few minutes`)
     ```bash
