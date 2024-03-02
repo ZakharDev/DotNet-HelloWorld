@@ -1,4 +1,4 @@
-![logo](/Images/logo.png)
+![logo](https://eliasdh.com/assets/media/images/logo-github.png)
 # 💙🤍DotNet-HelloWorld🤍💙
 
 This is a simple .NET Core web application that displays "Hello, World!" of "Hello AppEngine!"
