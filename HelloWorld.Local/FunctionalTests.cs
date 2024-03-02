@@ -8,7 +8,7 @@
 using Microsoft.AspNetCore.Mvc.Testing;
 using Xunit;
 
-namespace HelloWorld.Cloud;
+namespace HelloWorld.Local;
 
 public class FunctionalTests : IClassFixture<WebApplicationFactory<Program>>
 {
