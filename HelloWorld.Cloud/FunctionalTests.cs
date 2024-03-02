@@ -1,3 +1,10 @@
+/***************************************
+ *                                     *
+ *   Created by Elias De Hondt         *
+ *   Visit https://eliasdh.com         *
+ *                                     *
+ ***************************************/
+
 using Microsoft.AspNetCore.Mvc.Testing;
 using Xunit;
 
