@@ -2,9 +2,9 @@
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Cloud", "HelloWorld.Sample\HelloWorld.Cloud.csproj", "{E534F349-5575-4324-884C-33A24CB2E143}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Local", "HelloWorld.Local\HelloWorld.Local.csproj", "{E534F349-5575-4324-884C-33A24CB2E143}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Local", "HelloWorld.Tests\HelloWorld.Local.csproj", "{0CD65A12-31B9-49C4-8E42-A0D2C05CAD0E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Cloud", "HelloWorld.Cloud\HelloWorld.Cloud.csproj", "{0CD65A12-31B9-49C4-8E42-A0D2C05CAD0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

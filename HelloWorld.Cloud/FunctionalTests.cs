@@ -1,12 +1,8 @@
-/***************************************
- *                                     *
- *   Created by Elias De Hondt         *
- *   Visit https://eliasdh.com         *
- *                                     *
- ***************************************/
-
 using Microsoft.AspNetCore.Mvc.Testing;
 using Xunit;
+
+namespace HelloWorld.Cloud;
+
 public class FunctionalTests : IClassFixture<WebApplicationFactory<Program>>
 {
     private readonly WebApplicationFactory<Program> _factory;
@@ -22,7 +18,7 @@ public class FunctionalTests : IClassFixture<WebApplicationFactory<Program>>
         var client = _factory.CreateClient();
         var response = await client.GetAsync("/");
         response.EnsureSuccessStatusCode();
-	var body = await response.Content.ReadAsStringAsync();
-	Assert.Equal("Hello World!", body);
+        var body = await response.Content.ReadAsStringAsync();
+        Assert.Equal("Hello World!", body);
     }
 }
