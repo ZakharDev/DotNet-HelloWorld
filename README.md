@@ -48,6 +48,11 @@ This is a simple .NET Core web application that displays "Hello, World!" of "Hel
     ```
 - Insall the Google Cloud CLI [Instructions GCloud CLI](https://github.com/EliasDeHondt/IntegrationProject1-Deployment/blob/main/Documentation/Instructions-GCloud-CLI.md)
 
+- Make sure to create your application first.
+    ```bash	
+    gcloud app create --region=europe-west1 --project=PROJECT_ID 
+    ```
+
 #### 👉Step 1: Clone The GitHub Repository
 
 - Clone the repository
