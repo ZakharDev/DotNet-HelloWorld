@@ -30,7 +30,7 @@ Please also see following documents:
 
 ### 🖖Info
 
-This is a simple .NET Core web application that displays "Hello, World!" of "Hello AppEngine!". This application is intended to be used as a starting point for creating a .NET Core web application that can be deployed to Google Cloud.
+This is a simple .NET Core web application that displays "Hello, World!" or "Hello AppEngine!". This application is intended to be used as a starting point for creating a .NET Core web application that can be deployed to Google Cloud.
 
 ### ✨Steps
 
