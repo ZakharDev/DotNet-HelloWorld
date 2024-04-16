@@ -102,4 +102,4 @@ This is a simple .NET Core web application that displays "Hello, World!" or "Hel
 
 ## 🔗Links
 - 👯 Web hosting company [EliasDH.com](https://eliasdh.com).
-- 📫 How to reach us eliasdehondt@outlook.com.
+- 📫 How to reach us elias.dehondt@outlook.com
